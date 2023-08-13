@@ -12,21 +12,40 @@
 }
 
 
+.aside{
+    border: 0.5px solid red;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: cover;
+    width: 40vw;
+    justify-content: space-between;
+}
+.odin-logo{
+    display: flex;
+    font-size: 5rem;
+    align-self: center;
+    margin-top: 30px;
+    
+    background-color: rgba(0,0,0,0.4);
+
+
+}
+.aside p {
+    color: whitesmoke;
+
+    align-self: center;
+
+}
+
 .stacks{
     border: 0.5px solid teal;
     display: flex;
     flex-direction: column;
 }
-
-.aside{
-    border: 0.5px solid red;
-    display: flex;
-    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 60vw;
-}
-
 .stack-1{
 
     border: 0.25px solid purple;
