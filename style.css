@@ -4,11 +4,13 @@
     font-weight: normal;
     font-style: normal;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     border: 1px solid black;
     display: flex;
     /* not sure about the two properties below, have just put for testing and all */
@@ -17,7 +19,7 @@
 }
 
 
-.aside{
+.aside {
     border: 0.5px solid red;
     display: flex;
     flex-direction: column;
@@ -29,7 +31,8 @@
     width: 40vw;
     justify-content: space-between;
 }
-.odin-logo{
+
+.odin-logo {
 
     display: flex;
     font-size: 5rem;
@@ -41,10 +44,11 @@
     overflow: hidden;
     margin-top: 10rem;
     font-family: 'Norse Bold';
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 
 
 }
+
 .aside p {
     margin-bottom: 10px;
     color: whitesmoke;
@@ -53,23 +57,43 @@
 
 }
 
-.stacks{
+.stacks {
     border: 0.5px solid teal;
     display: flex;
     flex-direction: column;
+    width: 60vw;
+    justify-content: space-between;
+    /* gap: 1rem; */
 }
-.stack-1{
 
+.stack-1 {
+    padding: 2rem;
     border: 0.25px solid purple;
+}
 
+.header h2 {
+    padding: 1rem 0;
 
 }
-.stack-2{
 
+.stack-2 {
     border: 0.25px solid green;
+
+    padding: 2rem;
+    flex-grow: 1;
 }
 
-.stack-3{
+
+main h2{
+
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+
+}
+.stack-3 {
+
+    padding: 2rem;
+    flex-grow: 1;
 
     border: 0.25px solid grey;
 }
