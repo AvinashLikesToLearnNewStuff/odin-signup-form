@@ -11,7 +11,7 @@
 }
 
 .container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     /* not sure about the two properties below, have just put for testing and all */
     height: 100vh;
@@ -20,7 +20,7 @@
 
 
 .aside {
-    border: 0.5px solid red;
+    /* border: 0.5px solid red; */
     display: flex;
     flex-direction: column;
     background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
@@ -28,7 +28,7 @@
     background-repeat: no-repeat;
     z-index: -1;
     background-size: cover;
-    width: 40vw;
+    width: 30vw;
     justify-content: space-between;
 }
 
@@ -58,17 +58,18 @@
 }
 
 .stacks {
-    border: 0.5px solid teal;
+    /* border: 0.5px solid teal; */
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 70vw;
     justify-content: space-between;
     /* gap: 1rem; */
 }
 
 .stack-1 {
     padding: 2rem;
-    border: 0.25px solid purple;
+    margin-top: 2rem;
+    /* border: 0.25px solid purple; */
 }
 
 .header h2 {
@@ -77,23 +78,47 @@
 }
 
 .stack-2 {
-    border: 0.25px solid green;
+    /* border: 0.25px solid green; */
 
     padding: 2rem;
     flex-grow: 1;
 }
 
 
-main h2{
+main h2 {
 
     margin-bottom: 1rem;
     padding: 1rem 0;
 
 }
+
 .stack-3 {
 
     padding: 2rem;
     flex-grow: 1;
 
-    border: 0.25px solid grey;
+    /* border: 0.25px solid grey; */
+}
+
+footer p {
+    margin-top: 2rem;
+
+}
+
+a{
+    color: white;
+}
+
+/* create account button */
+button {
+
+    font-weight: bolder;
+    padding: 1rem 2.5rem;
+    font-size: 100%;
+    border-radius: 8px;
+    background-color: #596d48;
+    font: 100;
+    color: aliceblue;
+    border: none;
+
 }
