@@ -3,3 +3,33 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    border: 1px solid black;
+    display: flex;
+}
+
+.stacks{
+    border: 0.5px solid teal;
+    display: flex;
+}
+
+.aside{
+    border: 0.5px solid red;
+    display: flex;
+}
+
+.stack-1{
+
+    border: 0.25px solid purple;
+
+
+}
+.stack-2{
+
+    border: 0.25px solid green;
+}
+
+.stack-3{
+
+    border: 0.25px solid grey;
+}
