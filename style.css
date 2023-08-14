@@ -88,18 +88,29 @@ background-color: #f9fafb;
 .stack-2 {
     /* border: 0.25px solid green; */
 
-    padding: 2rem;
+    padding-left: 2rem;
     flex-grow: 1;
 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 
-main h2 {
+.main h2 {
 
     margin-bottom: 1rem;
     padding: 1rem 0;
     font-weight: lighter;
+
 }
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 .stack-3 {
 
@@ -137,3 +148,4 @@ button {
     box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 
 }
+
