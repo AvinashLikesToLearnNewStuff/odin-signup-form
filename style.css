@@ -28,8 +28,9 @@
     background-repeat: no-repeat;
     z-index: -1;
     background-size: cover;
-    width: 30vw;
+    /* width: 30vw; */
     justify-content: space-between;
+    flex: 0.7;
 }
 
 .odin-logo {
@@ -39,10 +40,10 @@
     align-self: center;
 
     justify-content: center;
-    height: 20%;
+    height: 25%;
     width: 100%;
     overflow: hidden;
-    margin-top: 10rem;
+    margin-top: 20vh;
     font-family: 'Norse Bold';
     background-color: rgba(0, 0, 0, 0.4);
 
@@ -61,7 +62,8 @@
     /* border: 0.5px solid teal; */
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    /* width: 70vw; */
+    flex: 1;
     justify-content: space-between;
     /* gap: 1rem; */
 }
@@ -81,6 +83,8 @@ background-color: #f9fafb;
     width: 80%;
 }
 
+
+/* the main container where our login form is there */
 .stack-2 {
     /* border: 0.25px solid green; */
 
