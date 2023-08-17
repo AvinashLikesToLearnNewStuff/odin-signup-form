@@ -146,7 +146,6 @@ form h2 {
     flex-direction: column;
     align-items: flex-start;
     /* padding: 2rem; */
-    margin-left: 6% ;
     flex-grow: 1;
 
     /* border: 0.25px solid grey; */
@@ -154,6 +153,10 @@ background-color: #f9fafb;
 box-shadow: inset 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
+.submit-button-and-para{
+    margin-left: 4%;
+    margin-top: 3%;
+}
 footer p {
     margin-top: 2rem;
 
