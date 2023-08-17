@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'Norse Bold';
+
     src: url('./Norse-Bold.otf');
     font-weight: normal;
     font-style: normal;
@@ -123,12 +124,19 @@ form{
     flex-direction: column;
 margin: auto;
 margin-bottom: 5%;
+font-family: 'Roboto',sans-serif;
+}
+form input{
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
 }
 form h2 {
     margin-top: 6%;
     font-family: 'Roboto',sans-serif;
     /* font-weight: 500; */
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 
@@ -137,7 +145,8 @@ form h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem;
+    /* padding: 2rem; */
+    margin-left: 6% ;
     flex-grow: 1;
 
     /* border: 0.25px solid grey; */
@@ -176,7 +185,7 @@ a{
     flex-direction: column;
 }
 .form-cell label{
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     font-weight: 500;
 }
 /* create account button */
