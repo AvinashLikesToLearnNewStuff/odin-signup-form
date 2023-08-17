@@ -5,7 +5,18 @@
     font-style: normal;
     
 }
-
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -103,9 +114,8 @@ background-color: #f9fafb;
 
 .main h2 {
 
-    margin-top: 6%;
     /* padding: 1rem 0; */
-    font-weight: lighter;
+    /* font-weight: lighter; */
 
 }
 form{
@@ -113,6 +123,12 @@ form{
     flex-direction: column;
 margin: auto;
 margin-bottom: 5%;
+}
+form h2 {
+    margin-top: 6%;
+    font-family: 'Roboto',sans-serif;
+    /* font-weight: 500; */
+    font-weight: bolder;
 }
 
 
