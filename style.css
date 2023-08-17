@@ -3,11 +3,13 @@
     src: url('./Norse-Bold.otf');
     font-weight: normal;
     font-style: normal;
+    
 }
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 .container {
@@ -36,7 +38,7 @@
 .odin-logo {
 
     display: flex;
-    font-size: 5rem;
+    font-size: 5.5rem;
     align-self: center;
 
     justify-content: center;
@@ -47,8 +49,9 @@
     font-family: 'Norse Bold';
     background-color: rgba(0, 0, 0, 0.4);
 
-
+    padding: 12px;
 }
+
 
 .aside p {
     margin-bottom: 10px;
@@ -100,15 +103,16 @@ background-color: #f9fafb;
 
 .main h2 {
 
-    margin-bottom: 1rem;
-    padding: 1rem 0;
+    margin-top: 6%;
+    /* padding: 1rem 0; */
     font-weight: lighter;
 
 }
 form{
     display: flex;
     flex-direction: column;
-
+margin: auto;
+margin-bottom: 5%;
 }
 
 
@@ -134,9 +138,31 @@ a{
     color: white;
 }
 
+.container-for-form-fields{
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.first-last-name,.email-phoneNo,.password-confirmPassword{
+    display: flex;
+    flex-direction: row;
+}
+.first-last-name .form-cell, .email-phoneNo .form-cell, .password-confirmPassword .form-cell{
+   padding: 22px; 
+   padding-bottom: 2px;
+   padding-left: 0;
+}
+
+.form-cell{
+    display: flex;
+    flex-direction: column;
+}
 /* create account button */
 button {
 
+    cursor: pointer;
     font-weight: bolder;
     padding: 1rem 2.5rem;
     font-size: 100%;
