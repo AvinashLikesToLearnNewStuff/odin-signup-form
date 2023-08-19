@@ -1,4 +1,6 @@
 @font-face {
+
+
     font-family: 'Norse Bold';
 
     src: url('./Norse-Bold.otf');
@@ -212,4 +214,7 @@ button {
 .stack-3  a {
     color: #596d48;
     text-decoration: none;
+    
 }
+
+  
