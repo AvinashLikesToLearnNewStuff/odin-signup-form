@@ -115,12 +115,7 @@ background-color: #f9fafb;
 }
 
 
-.main h2 {
 
-    /* padding: 1rem 0; */
-    /* font-weight: lighter; */
-
-}
 form{
     display: flex;
     flex-direction: column;
@@ -216,5 +211,27 @@ button {
     text-decoration: none;
     
 }
+input:focus{
+    appearance: none;
+}
 
+input + span {
+    position: relative;
+  } 
+
+  input + span::before {
+
+    position: absolute;
+    top: 2px;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+  }
+
+  input:invalid + span::before {
+    content: "not correct";
+    font-size: 10px;
+    color: red;
+  }
   
